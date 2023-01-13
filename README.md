@@ -17,9 +17,9 @@ all you need for ShareX setting up is just copy this config and feel free to usi
   "Name": "katsuCDN",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
-  "RequestURL": "https://img.katsuragi.cyou/api/upload",
+  "RequestURL": "<HOST>/api/upload",
   "Headers": {
-    "password": "aKatsu198"
+    "password": "<Password>"
   },
   "Body": "MultipartFormData",
   "FileFormName": "image",

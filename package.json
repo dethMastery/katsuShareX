@@ -1,0 +1,16 @@
+{
+  "name": "katsu-sharex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dethMastery/katsuShareX.git",
+  "author": "Suphakit P. <me@suphakit.net>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sharex-server": "^1.1.3"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  }
+}
